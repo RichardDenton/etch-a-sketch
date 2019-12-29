@@ -6,6 +6,11 @@ legend {
     margin: 0 auto;
 }
 
+fieldset {
+    border: none;
+    padding-top: 10px;
+}
+
 #main {
     text-align: center;
 }
@@ -44,13 +49,8 @@ legend {
 }
 
 #buttons {
+    /*display: flex;*/
     padding-top: 25px;
-}
-
-#radio {
-    width: 300px;
-    padding-top: 20px;
-    margin: auto;
 }
 
 .row {

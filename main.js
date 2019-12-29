@@ -43,6 +43,8 @@ function getRandomColor() {
 
 function getDarkerColor(originalColor) {
     // Extracts the digits from the RGB color and returns a string RGB value with each number reduced by 25 (until it hits 0)
+    if (originalColor == 'black') return originalColor;
+    if (originalColor == 'white') return "RGB(230 230 230)";
     let colorValues = originalColor.match(/(\d+)/g);
     for (let x = 0; x < colorValues.length; x ++) {
         let intValue = parseInt(colorValues[x]);
