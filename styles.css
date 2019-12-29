@@ -1,3 +1,11 @@
+body {
+    font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+legend {
+    margin: 0 auto;
+}
+
 #main {
     text-align: center;
 }
@@ -33,11 +41,16 @@
     display: flex;
     flex-direction: column;
     margin-left: 3vw;
-    background-color: #999;
 }
 
 #buttons {
     padding-top: 25px;
+}
+
+#radio {
+    width: 300px;
+    padding-top: 20px;
+    margin: auto;
 }
 
 .row {
